@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 07:45:31</sys_created_on>
+        <sys_id>dc6d8130977f391053f8b5a6f053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_l_t_jml_exit_process.x_1129749_l_t_jml.exit_process_user</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_security_acl display_value="x_1129749_l_t_jml_exit_process">906d8130977f391053f8b5a6f053af67</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dc6d8130977f391053f8b5a6f053af69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 07:45:31</sys_updated_on>
+        <sys_user_role display_value="x_1129749_l_t_jml.exit_process_user" name="x_1129749_l_t_jml.exit_process_user">cc6d09fc973f391053f8b5a6f053afd1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>name_your_country</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 09:38:38</sys_created_on>
+        <sys_id>503721b897bf391053f8b5a6f053af3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>name_your_country</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_update_name>sys_ui_policy_action_503721b897bf391053f8b5a6f053af3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 10:06:18</sys_updated_on>
+        <table>x_1129749_l_t_jml_inquiry</table>
+        <ui_policy display_value="On change of country to other Your country field should be visible.">3107a97897bf391053f8b5a6f053afb4</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
