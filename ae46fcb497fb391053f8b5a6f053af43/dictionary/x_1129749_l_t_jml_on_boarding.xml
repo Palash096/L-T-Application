@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="89b9053c973f391053f8b5a6f053af07" label="On Boarding" max_length="40" name="x_1129749_l_t_jml_on_boarding" type="collection">
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Name of the Applicant" mandatory="true" max_length="32" name="name_of_the_applicant" reference="x_1129749_l_t_jml_inquiry" type="reference"/>
+        <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="string"/>
+        <index name="index">
+            <element name="name_of_the_applicant"/>
+        </index>
+    </element>
+</database>

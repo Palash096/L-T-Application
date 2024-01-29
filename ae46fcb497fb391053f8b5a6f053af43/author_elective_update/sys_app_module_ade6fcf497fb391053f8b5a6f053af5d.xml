@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Inquiry">a5e6fcf497fb391053f8b5a6f053af5a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Inquiries</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1129749_l_t_jml_inquiry</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1129749_l_t_jml.inquiry_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 06:07:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ade6fcf497fb391053f8b5a6f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inquiries</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_update_name>sys_app_module_ade6fcf497fb391053f8b5a6f053af5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:07:17</sys_updated_on>
+        <timeline_page/>
+        <title>Inquiries</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_app_module_ade6fcf497fb391053f8b5a6f053af5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Inquiry">a5e6fcf497fb391053f8b5a6f053af5a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Inquiries</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1129749_l_t_jml_inquiry</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1129749_l_t_jml.inquiry_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-15 06:07:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ade6fcf497fb391053f8b5a6f053af5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Inquiries</sys_name><sys_overrides/><sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package><sys_policy/><sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope><sys_update_name>sys_app_module_ade6fcf497fb391053f8b5a6f053af5d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-15 06:07:17</sys_updated_on><timeline_page/><title>Inquiries</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>534138258</payload_hash>
+        <record_name>Inquiries</record_name>
+        <reverted_from/>
+        <source>ee46fcb497fb391053f8b5a6f053af45</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 06:07:17</sys_created_on>
+        <sys_id>ade6fcf497fb391053f8b5a6f053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0bbb40510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:07:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e5e6fcf4b4fb3910d715c08d67cd2860</update_guid>
+        <update_guid_history>e5e6fcf4b4fb3910d715c08d67cd2860:534138258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Inquiries">8b6930f897fb391053f8b5a6f053af8e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 06:18:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0e6ad6e74e8040b78780d225c70f9f79</sys_id>
+        <sys_metadata>ade6fcf497fb391053f8b5a6f053af5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inquiries</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_app_module_ade6fcf497fb391053f8b5a6f053af5d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ade6fcf497fb391053f8b5a6f053af5d">ade6fcf497fb391053f8b5a6f053af60</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:18:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

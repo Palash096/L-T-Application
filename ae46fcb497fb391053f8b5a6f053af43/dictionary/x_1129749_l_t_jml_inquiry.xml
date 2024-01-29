@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51fcb0fc97fb391053f8b5a6f053af44" label="Inquiry" max_length="40" name="x_1129749_l_t_jml_inquiry" type="collection">
+        <element label="Attachment Resume" mandatory="true" max_length="40" name="attachment_resume" type="file_attachment"/>
+        <element choice="1" label="Career Option" max_length="40" name="carrer_option" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Training" sequence="0" value="training"/>
+                <element inactive_on_update="false" label="Training / Placement" sequence="1" value="training / placement"/>
+                <element inactive_on_update="false" label="Internship" sequence="2" value="internship"/>
+                <element inactive_on_update="false" label="On Job" sequence="3" value="on job"/>
+            </choice>
+        </element>
+        <element choice="1" label="Country" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="India" sequence="0" value="india"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="other"/>
+            </choice>
+        </element>
+        <element label="Course Information" max_length="1000" name="course_information" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element display="true" label="Full Name" max_length="40" name="full_name" read_only="true" type="string"/>
+        <element choice="1" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Trans" sequence="2" value="trans"/>
+            </choice>
+        </element>
+        <element choice="1" label="Highest Degree" max_length="40" name="highest_degree" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="B-Tech" sequence="0" value="b-tech"/>
+                <element inactive_on_update="false" label="M-Tech" sequence="1" value="m-tech"/>
+                <element inactive_on_update="false" label="Others" sequence="2" value="others"/>
+            </choice>
+        </element>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Mobile Numberr" mandatory="true" max_length="40" name="mobile_numberr" type="string"/>
+        <element label="Name of your Degree" max_length="40" name="name_of_your_degree" type="string"/>
+        <element label="Name your Country" max_length="40" name="name_your_country" type="string"/>
+        <element label="Percentage" mandatory="true" max_length="40" name="percentage" type="string"/>
+        <element choice="1" dependent="carrer_option" dependent_on_field="carrer_option" label="Period" max_length="40" name="period" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="training" inactive_on_update="false" label="3 month" sequence="0" value="3 month - training"/>
+                <element dependent_value="training" inactive_on_update="false" label="6 month" sequence="1" value="6 month - training"/>
+            </choice>
+        </element>
+        <element label="Pincode" mandatory="true" max_length="40" name="pincode" type="string"/>
+        <element choice="1" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maharashtra" value="maharashtra"/>
+            </choice>
+        </element>
+        <element label="University" mandatory="true" max_length="40" name="university" type="string"/>
+        <element label="Village / City" mandatory="true" max_length="40" name="village_city" type="string"/>
+        <element label="Year of Passing" mandatory="true" max_length="40" name="year_of_passing" type="glide_date"/>
+    </element>
+</database>
