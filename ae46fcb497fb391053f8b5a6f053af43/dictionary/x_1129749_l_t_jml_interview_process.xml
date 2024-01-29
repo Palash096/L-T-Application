@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d705c1b4973f391053f8b5a6f053afd1" label="Interview Process" max_length="40" name="x_1129749_l_t_jml_interview_process" type="collection">
+        <element label="Candidate Name" mandatory="true" max_length="32" name="candidate_name" reference="x_1129749_l_t_jml_inquiry" type="reference"/>
+        <element label="Date of Interview" mandatory="true" max_length="40" name="date_of_interview" type="glide_date"/>
+        <element label="Interview Name" mandatory="true" max_length="32" name="interview_name" reference="sys_user" type="reference"/>
+        <element choice="1" label="Interview Rounds" max_length="40" name="interview_rounds" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="technical"/>
+                <element inactive_on_update="false" label="Manager" sequence="1" value="manager"/>
+                <element inactive_on_update="false" label="HR" sequence="2" value="hr"/>
+            </choice>
+        </element>
+        <element label="Reject" max_length="40" name="reject" type="boolean"/>
+        <element label="Remarks of that Interview" mandatory="true" max_length="1000" name="remarks_of_that_interview" type="string"/>
+        <element label="Select" max_length="40" name="select" type="boolean"/>
+        <index name="index">
+            <element name="candidate_name"/>
+        </index>
+        <index name="index2">
+            <element name="interview_name"/>
+        </index>
+    </element>
+</database>

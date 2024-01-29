@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d47392389773791053f8b5a6f053af70" label="Documents" max_length="40" name="x_1129749_l_t_jml_documents" type="collection">
+        <element label="Applicant Name" max_length="40" name="applicant_name" reference="x_1129749_l_t_jml_inquiry" type="reference"/>
+        <element label="Document file" max_length="40" name="document_file" type="file_attachment"/>
+        <element label="Document Name" max_length="40" name="document_name" type="string"/>
+    </element>
+</database>

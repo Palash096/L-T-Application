@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="DELETE">
+        <order>1000</order>
+        <role display_value="x_1129749_l_t_jml.inquiry_user" name="x_1129749_l_t_jml.inquiry_user">d5e6b4f497fb391053f8b5a6f053af8d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 06:07:16</sys_created_on>
+        <sys_id>59e6b4f497fb391053f8b5a6f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d5e6b4f497fb391053f8b5a6f053af8d</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_update_name>sys_embedded_help_role_59e6b4f497fb391053f8b5a6f053af8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:07:16</sys_updated_on>
+    </sys_embedded_help_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_embedded_help_role_59e6b4f497fb391053f8b5a6f053af8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>1000</order><role display_value="x_1129749_l_t_jml.inquiry_user" name="x_1129749_l_t_jml.inquiry_user">d5e6b4f497fb391053f8b5a6f053af8d</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-15 06:07:16</sys_created_on><sys_id>59e6b4f497fb391053f8b5a6f053af8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>d5e6b4f497fb391053f8b5a6f053af8d</sys_name><sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package><sys_policy/><sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope><sys_update_name>sys_embedded_help_role_59e6b4f497fb391053f8b5a6f053af8f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-15 06:07:16</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+        <payload_hash>1296735192</payload_hash>
+        <record_name>d5e6b4f497fb391053f8b5a6f053af8d</record_name>
+        <reverted_from/>
+        <source>3f07c4119702311053f8b5a6f053af9e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-21 16:05:21</sys_created_on>
+        <sys_id>4c7970f897fb391053f8b5a6f053afec</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b52fbe1e80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Embedded Help Role Priority</type>
+        <update_guid>0c7970f882fb3910f6b2ad701fd3c4ec</update_guid>
+        <update_guid_history>0c7970f882fb3910f6b2ad701fd3c4ec:1296735192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 06:18:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_help_role">sys_embedded_help_role</sys_db_object>
+        <sys_id>141f478193014f8084293f93320f0929</sys_id>
+        <sys_metadata>59e6b4f497fb391053f8b5a6f053af8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d5e6b4f497fb391053f8b5a6f053af8d</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_embedded_help_role_59e6b4f497fb391053f8b5a6f053af8f</sys_update_name>
+        <sys_update_version display_value="sys_embedded_help_role_59e6b4f497fb391053f8b5a6f053af8f">4c7970f897fb391053f8b5a6f053afec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:18:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

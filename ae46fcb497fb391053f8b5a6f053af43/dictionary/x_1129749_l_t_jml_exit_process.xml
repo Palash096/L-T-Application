@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e3d0130977f391053f8b5a6f053af2f" label="Exit Process" max_length="40" name="x_1129749_l_t_jml_exit_process" type="collection">
+        <element label="Attachment Resignation" mandatory="true" max_length="40" name="attachment_resignation" type="file_attachment"/>
+        <element label="Name of the Applicant" mandatory="true" max_length="32" name="name_of_the_applicant" reference="x_1129749_l_t_jml_inquiry" type="reference"/>
+        <index name="index">
+            <element name="name_of_the_applicant"/>
+        </index>
+    </element>
+</database>

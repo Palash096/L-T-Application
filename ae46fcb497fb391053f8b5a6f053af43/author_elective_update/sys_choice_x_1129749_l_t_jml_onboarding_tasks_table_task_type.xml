@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-16 05:37:26</sys_created_on>
-            <sys_id>8aa9f98197ff791053f8b5a6f053af7e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>task_type</sys_name>
             <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
@@ -16,6 +15,26 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-01-16 05:37:26</sys_updated_on>
         </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asset Allocation</label>
+            <language>en</language>
+            <name>x_1129749_l_t_jml_onboarding_tasks_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 13:22:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea7dda0397f7311053f8b5a6f053affd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-22 13:22:18</sys_updated_on>
+            <value>asset allocation</value>
+        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>task_type</element>
@@ -55,6 +74,46 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-01-16 05:37:34</sys_updated_on>
             <value>document verification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee ID</label>
+            <language>en</language>
+            <name>x_1129749_l_t_jml_onboarding_tasks_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 13:23:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0eadda0397f7311053f8b5a6f053afe1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-22 13:23:15</sys_updated_on>
+            <value>employee id</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for ID Card</label>
+            <language>en</language>
+            <name>x_1129749_l_t_jml_onboarding_tasks_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 13:22:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b8dda0397f7311053f8b5a6f053affe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-22 13:22:48</sys_updated_on>
+            <value>request for id card</value>
         </sys_choice>
     </sys_choice>
 </record_update>

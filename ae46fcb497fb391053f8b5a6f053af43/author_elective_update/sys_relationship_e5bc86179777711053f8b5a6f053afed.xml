@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1129749_l_t_jml_inquiry</basic_apply_to>
+        <basic_query_from>x_1129749_l_t_jml_onboarding_tasks_table</basic_query_from>
+        <insert_callback/>
+        <name>OnBoarding Tasks List</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('inquiry', parent.sys_id);]]></query_with>
+        <reference_field>inquiry</reference_field>
+        <related_list/>
+        <simple_reference>true</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 06:50:02</sys_created_on>
+        <sys_id>e5bc86179777711053f8b5a6f053afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnBoarding Tasks List</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_update_name>sys_relationship_e5bc86179777711053f8b5a6f053afed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 06:50:02</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=e5bc86179777711053f8b5a6f053afed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_relationship_e5bc86179777711053f8b5a6f053afed</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_1129749_l_t_jml_inquiry&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1129749_l_t_jml_onboarding_tasks_table&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;OnBoarding Tasks List&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[current.addQuery('inquiry', parent.sys_id);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;inquiry&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;true&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-23 06:50:02&lt;/sys_created_on&gt;&lt;sys_id&gt;e5bc86179777711053f8b5a6f053afed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;OnBoarding Tasks List&lt;/sys_name&gt;&lt;sys_package display_value="L&amp;amp;amp;T JML Application" source="x_1129749_l_t_jml"&gt;ae46fcb497fb391053f8b5a6f053af43&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="L&amp;amp;amp;T JML Application"&gt;ae46fcb497fb391053f8b5a6f053af43&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_e5bc86179777711053f8b5a6f053afed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-23 06:50:02&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e5bc86179777711053f8b5a6f053afed"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1429925981</payload_hash>
+        <record_name>OnBoarding Tasks List</record_name>
+        <reverted_from/>
+        <source>7f9cbc7c97fb391053f8b5a6f053af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 06:50:03</sys_created_on>
+        <sys_id>3d6d82579777711053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d3515457e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 06:50:03</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>396d461794777110690ef6b0e0efd6d3</update_guid>
+        <update_guid_history>396d461794777110690ef6b0e0efd6d3:1429925981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 06:50:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>08a5c2ac0a134f8397f406e6d5c4fd19</sys_id>
+        <sys_metadata>e5bc86179777711053f8b5a6f053afed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnBoarding Tasks List</sys_name>
+        <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
+        <sys_parent display_value="Inquiry">51fcb0fc97fb391053f8b5a6f053af44</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
+        <sys_scope_delete display_value="">88f8ceab72514dd3b7f0e61309828aa9</sys_scope_delete>
+        <sys_update_name>sys_relationship_e5bc86179777711053f8b5a6f053afed</sys_update_name>
+        <sys_update_version display_value="sys_relationship_e5bc86179777711053f8b5a6f053afed">3d6d82579777711053f8b5a6f053afcc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 06:50:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

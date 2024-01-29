@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="gender" table="x_1129749_l_t_jml_inquiry" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="country" table="x_1129749_l_t_jml_inquiry" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>gender</element>
+            <element>country</element>
             <name>x_1129749_l_t_jml_inquiry</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-15 06:56:39</sys_created_on>
-            <sys_id>a8328934973f391053f8b5a6f053af69</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>gender</sys_name>
+            <sys_name>country</sys_name>
             <sys_package display_value="L&amp;amp;T JML Application" source="x_1129749_l_t_jml">ae46fcb497fb391053f8b5a6f053af43</sys_package>
             <sys_policy/>
             <sys_scope display_value="L&amp;amp;T JML Application">ae46fcb497fb391053f8b5a6f053af43</sys_scope>
-            <sys_update_name>sys_choice_x_1129749_l_t_jml_inquiry_gender</sys_update_name>
+            <sys_update_name>sys_choice_x_1129749_l_t_jml_inquiry_country</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-01-15 06:56:39</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>gender</element>
+            <element>country</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Male</label>
+            <label>India</label>
             <language>en</language>
             <name>x_1129749_l_t_jml_inquiry</name>
             <sequence>0</sequence>
@@ -30,18 +29,18 @@
             <sys_created_on>2024-01-15 06:56:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>64328934973f391053f8b5a6f053af69</sys_id>
+            <sys_id>2c328934973f391053f8b5a6f053af78</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-01-15 06:56:39</sys_updated_on>
-            <value>male</value>
+            <value>india</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>gender</element>
+            <element>country</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Female</label>
+            <label>Other</label>
             <language>en</language>
             <name>x_1129749_l_t_jml_inquiry</name>
             <sequence>1</sequence>
@@ -50,31 +49,11 @@
             <sys_created_on>2024-01-15 06:56:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>60328934973f391053f8b5a6f053af6b</sys_id>
+            <sys_id>6c328934973f391053f8b5a6f053af79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-01-15 06:56:39</sys_updated_on>
-            <value>female</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>gender</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Trans</label>
-            <language>en</language>
-            <name>x_1129749_l_t_jml_inquiry</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-15 06:56:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ec328934973f391053f8b5a6f053af6b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-15 06:56:39</sys_updated_on>
-            <value>trans</value>
+            <value>other</value>
         </sys_choice>
     </sys_choice>
 </record_update>
